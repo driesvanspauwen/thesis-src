@@ -1,10 +1,10 @@
 # About
 This repo contains the source code for the master's thesis "Accurate and Scalable Emulation of Microarchitectural Weird Machines" by Dries Vanspauwen. 
 
-The main contribution is WeMu, an emulation framework designed specifically for analyzing microarchitectural weird machines (µWMs). WeMu emulates their obfuscated computations by emulating the microarchitectural effects that µWMs rely on. It is built on top of the ISA-level Unicorn CPU emulator.
+The main contribution is WeMu, an emulation framework designed specifically for analyzing microarchitectural weird machines (µWMs). WeMu emulates their obfuscated computations by modeling the microarchitectural effects that µWMs rely on. Our framework is built on top of the ISA-level Unicorn CPU emulator.
 
 # Installation
-Install the Python libraries listed in [`requirements.txt`](./requirements.txt), and you are good to go.
+You only have to install the Python libraries listed in [`requirements.txt`](./requirements.txt).
 
 # Code structure
 ## Microarchitectural modeling
